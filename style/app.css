@@ -4,12 +4,19 @@ main{
 }
 
 #list{
-    background-color: aqua;
-    flex: 6;
+    background-color: rgb(223, 220, 145);
+    flex: 5;
 }
 
 #form{
-        background-color: rgb(230, 225, 235);
+        background-color: rgb(62, 154, 155);
         flex: 6;
 }
+.task{
+    margin: 10px 20px 1px solid;
+    padding: 10px;
+    display: flex;
+}
+
 /* try to cover all the space of both sections */
+/* this is a comment */
