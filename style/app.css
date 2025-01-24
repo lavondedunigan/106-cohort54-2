@@ -1,22 +1,64 @@
-main{
+body{
+    min-height: 300px;
     display: flex;
-    height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap; 
+ 
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(154, 160, 95);
+    font-size:medium;
+    border: 800px solid black;
 }
 
 #list{
-    background-color: rgb(223, 220, 145);
-    flex: 5;
+    background-color: rgb(94, 155, 101);
+    flex: 6;
 }
 
 #form{
-        background-color: rgb(62, 154, 155);
-        flex: 6;
+    background-color: rgb(28, 112, 172);
+    flex: 6;
 }
+       
 .task{
     margin: 10px 20px 1px solid;
     padding: 10px;
     display: flex;
+    border:rgb(91, 42, 165);
 }
+#classes{
+    background-color: rgb(186, 158, 17);
+    flex: 6;
+    display: flex;
+
+}
+/*utilities*/
+.container{
+    width: 80px;
+    padding:3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.container{
+    width:80%;
+    padding:3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width:80%;
+    padding:3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 /* try to cover all the space of both sections */
 /* this is a comment */

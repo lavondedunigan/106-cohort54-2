@@ -1,6 +1,7 @@
-class Task {
+class Task{
 
-    constructor(title, desc, color, data, status, number)
+
+    constructor(title, description, color, date, status, budget)
     {
         this.title = title;
         this.description = description;
@@ -8,6 +9,7 @@ class Task {
         this.date = date;
         this.status = status;
         this.budget = budget;
+        this.name = "Vonda2025";
     }
 
 }
